@@ -1,11 +1,3 @@
-NFS Client for Golang
-=====================
-
-Installation
-------------
-
-This library uses gb to build. Simply run gb in the root of the checkout then have a look in the {{_bin}} directory for examples.
-=======
 # nfs-proxy
 # nfs-proxy 设计目的主要是用来做一个高可用的针对k8s的nfs下文件服务器
 # 背景
