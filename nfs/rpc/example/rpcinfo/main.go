@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	pm, err := rpc.DialPortmapper("tcp", "stora.local")
+	pm, err := rpc.DialPortmapper("tcp", "10.100.17.30")
 	if err != nil {
 		log.Fatalf("unable to connect to portmapper: %v", err)
 	}
